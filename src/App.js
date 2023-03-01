@@ -10,10 +10,14 @@ function App() {
 
 
     <BrowserRouter>
-      <Routes>
 
-          <Route path="/" element={<Lyout />} />
-          {/* <Route index element={<IndexPages />} /> */}
+      <Lyout />
+
+      <Routes>
+        
+
+          {/* <Route index element={<Lyout />} /> */}
+          <Route path="/" element={<IndexPages />} /> 
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<RegisterPage />} />
 

@@ -9,7 +9,7 @@ const Lyout = () => {
 
  
          <Header />
-         <IndexPages />
+        
          
             
         </>
